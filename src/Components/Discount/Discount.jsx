@@ -92,7 +92,7 @@ const Discount = () => {
                 <AnswerText>Наш менеджер  Вам зателефонує </AnswerText>
                 <BoxNumberTextFirst>
                     <PiNumberCircleThreeLight size={iconSize.md} color={'var(--text-black)'} />
-                    <TextQuestion>Знижка до 70%</TextQuestion>
+                    <TextQuestion>Знижка до 25%</TextQuestion>
                 </BoxNumberTextFirst>
                 <AnswerText>Ми прорахуємо та повідомимо вартість Вашої конструкції</AnswerText>
             </BoxMobile>
@@ -114,7 +114,7 @@ const Discount = () => {
                 <BoxNumberText>
                     <PiNumberCircleThreeLight size={iconSize.md} color={'var(--text-black)'}/>
                     <ContainerTextQuestion3>
-                        <TextQuestion>Отримайте прорахунок зі знижкою до 70%</TextQuestion>
+                        <TextQuestion>Отримайте прорахунок зі знижкою до 25%</TextQuestion>
                         <AnswerTextDesktop>Ми прорахуємо та повідомимо вартість Вашої конструкції</AnswerTextDesktop>
                     </ContainerTextQuestion3>
                 </BoxNumberText>
