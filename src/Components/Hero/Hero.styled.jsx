@@ -20,27 +20,27 @@ export const ContainerHero = styled.div`
     }
 
     @media (min-width: 1350px) {
-        padding: 0 80px 60px;
+        padding: 0 80px 115px;
     }
 
     @media (min-width: 1440px) {
-        padding: 0 100px 60px;
+        padding: 0 100px 115px;
     }
     
     @media (min-width: 1500px) {
-        padding: 0 110px 60px;
+        padding: 0 110px 115px;
     }
     
     @media (min-width: 1550px) {
-        padding: 0 120px 60px;
+        padding: 0 120px 115px;
     }
     
     @media (min-width: 1600px) {
-        padding: 0 140px 60px;
+        padding: 0 140px 115px;
     }
 
     @media (min-width: 1920px) {
-        padding: 0 305px 90px;
+        padding: 0 305px 115px;
     } 
 `;
 
