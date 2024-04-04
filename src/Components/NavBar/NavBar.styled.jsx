@@ -165,8 +165,12 @@ export const DesktopList = styled.ul`
         gap: 15px;
     }
 
+    @media (min-width: 1100px) {
+        gap: 6px;
+    }
+
     @media (min-width: 1280px) {
-        gap: 12px;
+        gap: 8px;
         margin-right: 20px;
     }
 
