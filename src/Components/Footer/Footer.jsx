@@ -8,6 +8,7 @@ import { RiTelegramLine, RiFacebookCircleLine } from 'react-icons/ri';
 import { AiOutlineInstagram, AiOutlineYoutube } from 'react-icons/ai';
 import { BoxContacts, BoxSocContact, ContainerFooter, ContainerSoc, EndText, FooterBoxContacts, IndividualContact, IndividualLink, LinkSocial, LogoFooter, SocialFooterContainer, TextContacts, ViberTelegramBox } from './Footer.styled';
 import { iconSize } from '../../constants/iconSize';
+import { PiTiktokLogo } from "react-icons/pi";
 
 const Footer = () => {
     return (
@@ -36,6 +37,7 @@ const Footer = () => {
                     </IndividualContact>
                 </ViberTelegramBox>
                 <SocialFooterContainer>
+                    <LinkSocial href="https://www.tiktok.com/@windo_ua?_t=8lDUBuUzntt&_r=1" target="blank_"><PiTiktokLogo size={iconSize.md}/></LinkSocial>
                     <LinkSocial href="https://www.facebook.com/windo.Kiev/" target="blank_"><RiFacebookCircleLine size={iconSize.md}/></LinkSocial>
                     <LinkSocial href="https://www.youtube.com/channel/UCoWoMR1Hqel9_LpjE7kF6cQ" target="blank_"><AiOutlineYoutube size={iconSize.md}/></LinkSocial>
                     <LinkSocial href="https://www.instagram.com/windo_ua/" target="blank_"><AiOutlineInstagram size={iconSize.md}/></LinkSocial>

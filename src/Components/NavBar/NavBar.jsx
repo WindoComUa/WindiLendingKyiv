@@ -28,6 +28,7 @@ import {
   TabletPhone 
 } from './NavBar.styled';
 import { PiFacebookLogoLight } from 'react-icons/pi';
+import { PiTiktokLogo } from "react-icons/pi";
 import { AiOutlineYoutube, AiOutlineInstagram } from 'react-icons/ai';
 import { MdOutlinePhone } from 'react-icons/md';
 import { RiTelegramLine } from 'react-icons/ri';
@@ -133,6 +134,7 @@ function NavBar() {
               <MobileLists>
                 <li><IconsSocial href="https://viber.click/+0677721077" target="blank_"><FaViber size={iconSize.md}/></IconsSocial></li>
                 <li><IconsSocial href="https://web.telegram.org/k/#@Windocomua" target="blank_"><RiTelegramLine size={iconSize.md}/></IconsSocial></li>
+                <li><IconsSocial href="https://www.tiktok.com/@windo_ua?_t=8lDUBuUzntt&_r=1" target="blank_"><PiTiktokLogo size={iconSize.md}/></IconsSocial></li>
               </MobileLists>
               <MobileLists>
                 <li><IconsSocial href="https://www.facebook.com/windo.Kiev/" target="blank_"><PiFacebookLogoLight size={iconSize.md}/></IconsSocial></li>
@@ -213,6 +215,7 @@ function NavBar() {
           <li><IconsSocial href="https://www.facebook.com/windo.Kiev/" target="blank_"><PiFacebookLogoLight size={iconSize.md}/></IconsSocial></li>
           <li><IconsSocial href="https://www.youtube.com/channel/UCoWoMR1Hqel9_LpjE7kF6cQ" target="blank_"><AiOutlineYoutube size={iconSize.md}/></IconsSocial></li>
           <li><IconsSocial href="https://www.instagram.com/windo_ua/" target="blank_"><AiOutlineInstagram size={iconSize.md}/></IconsSocial></li>
+          <li><IconsSocial href="https://www.tiktok.com/@windo_ua?_t=8lDUBuUzntt&_r=1" target="blank_"><PiTiktokLogo size={iconSize.md}/></IconsSocial></li>
         </DesktopSocial>
         <div>
           <DesktopPhone href="tel:+380677721077"><MdOutlinePhone size={iconSize.md}/>+380677721077</DesktopPhone>
