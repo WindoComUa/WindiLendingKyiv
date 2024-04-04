@@ -4,13 +4,18 @@ import backgroundMobile from '../../img/main-background-mobile.jpg';
 
 
 export const ContainerHero = styled.div`
-    background-color: var(--text-white);
     background-image: url(${backgroundMobile});
     background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-position: 50% 43%;
     padding: 24px 16px;
+    background-color: #4E4E4E;
+
+    @media (min-width: 375px) {
+        background-position: 50% 62%;
+    }
 
     @media (min-width: 688px) {
+        background-color: var(--text-white);
         background-image: none;
         padding: 0 40px;
     }
@@ -20,28 +25,222 @@ export const ContainerHero = styled.div`
     }
 
     @media (min-width: 1350px) {
-        padding: 0 80px 115px;
+        padding: 0 80px 80px;
     }
 
     @media (min-width: 1440px) {
-        padding: 0 100px 115px;
+        padding: 0 100px 80px;
     }
     
     @media (min-width: 1500px) {
-        padding: 0 110px 115px;
+        padding: 0 110px 80px;
     }
     
     @media (min-width: 1550px) {
-        padding: 0 120px 115px;
+        padding: 0 120px 80px;
     }
     
     @media (min-width: 1600px) {
-        padding: 0 140px 115px;
+        padding: 0 140px 80px;
     }
 
     @media (min-width: 1920px) {
-        padding: 0 305px 115px;
+        padding: 0 305px 80px;
     } 
+`;
+
+export const BoxMobil = styled.div`
+    padding: 15px 15px;
+    background-color: #fff;
+    position: absolute;
+    top: 69px;
+    width: auto;
+
+
+    @media (min-width: 290px) {
+        padding: 15px 20px;
+    }
+
+    @media (min-width: 300px) {
+        padding: 15px 25px;
+    }
+
+    @media (min-width: 310px) {
+        padding: 15px 30px;
+        top: 71px;
+    }
+
+    @media (min-width: 320px) {
+        padding: 15px 35px;
+    }
+
+    @media (min-width: 330px) {
+        padding: 15px 40px;
+        top: 71px;
+    }
+
+    @media (min-width: 340px) {
+        padding: 15px 45px;
+    }
+
+    @media (min-width: 350px) {
+        adding: 20px 50px;
+    }
+
+    @media (min-width: 360px) {
+        padding: 7px 20px;
+    }
+
+    @media (min-width: 372px) {
+        padding: 12px 27px;
+    }
+
+    @media (min-width: 378px) {
+        padding: 18px 29px;
+    }
+
+    @media (min-width: 380px) {
+        padding: 26px 30px;
+        top: 72px;
+    }
+
+    @media (min-width: 390px) {
+        padding: 26px 35px;
+    }
+
+    @media (min-width: 400px) {
+        padding: 24px 40px;
+        top: 72px;
+    }
+
+    @media (min-width: 410px) {
+        padding: 26px 45px;
+        top: 72px;
+    }
+
+    @media (min-width: 410px) {
+        padding: 34px 46px;
+        top: 77px;
+    }
+
+    @media (min-width: 420px) {
+        padding: 26px 50px;
+        top: 78px;
+    }
+
+    @media (min-width: 430px) {
+        padding: 35px 55px;
+    }
+
+    @media (min-width: 440px) {
+        padding: 35px 60px;
+    }
+
+    @media (min-width: 450px) {
+        padding: 35px 65px;
+    }
+
+    @media (min-width: 460px) {
+        padding: 35px 70px;
+    }
+
+    @media (min-width: 470px) {
+        padding: 36px 75px;
+        top: 76px;
+    }
+
+    @media (min-width: 480px) {
+        padding: 36px 80px;
+    }
+
+    @media (min-width: 484px) {
+        padding: 36px 82px;
+    }
+
+    @media (min-width: 490px) {
+        padding: 36px 85px;
+    }
+
+    @media (min-width: 500px) {
+        padding: 36px 90px;
+    }
+
+    @media (min-width: 510px) {
+        padding: 36px 95px;
+    }
+
+    @media (min-width: 530px) {
+        padding: 36px 105px;
+    }
+
+    @media (min-width: 550px) {
+        padding: 36px 115px;
+    }
+
+    @media (min-width: 560px) {
+        padding: 37px 120px;
+    }
+
+    @media (min-width: 570px) {
+        padding: 37px 125px;
+    }
+
+    @media (min-width: 570px) {
+        padding: 37px 130px;
+    }
+
+    @media (min-width: 590px) {
+        padding: 37px 135px;
+    }
+
+    @media (min-width: 600px) {
+        padding: 37px 140px;
+    }
+
+    @media (min-width: 610px) {
+        padding: 37px 145px;
+    }
+
+    @media (min-width: 620px) {
+        padding: 37px 150px;
+    }
+
+    @media (min-width: 630px) {
+        padding: 36px 155px;
+        top: 76px;
+    }
+
+    @media (min-width: 640px) {
+        padding: 40px 160px;
+    }
+
+    @media (min-width: 650px) {
+        padding: 41px 165px;
+    }
+
+    @media (min-width: 660px) {
+        padding: 41px 170px;
+    }
+
+    @media (min-width: 670px) {
+        padding: 41px 175px;
+    }
+
+    @media (min-width: 678px) {
+        padding: 41px 178px;
+    }
+
+    @media (min-width: 688px) {
+        display: none;
+    }
+`;
+
+export const BoxHeroTabletText = styled.div`
+    display: none;
+
+    @media (min-width: 688px) {
+        display: block;
+    }
 `;
 
 
@@ -81,7 +280,7 @@ export const HeroTitle = styled.h1`
 `;
 
 export const HeroBrandText = styled.h2`
-    margin-bottom: 270px;
+
     text-align: center;
     font-family: Inter;
     font-weight: 400;
@@ -89,12 +288,7 @@ export const HeroBrandText = styled.h2`
     font-size: 15px;
     line-height: 1.5;
 
-    @media (min-width: 280px) {
-        margin-bottom: 250px;
-    }
-
     @media (min-width: 360px) {
-        margin-bottom: 264px;
         font-size: 20px;
     }
 
@@ -119,13 +313,19 @@ export const HeroBrandText = styled.h2`
 export const ContainerBtnText = styled.div`
     display: flex;
     flex-direction: column;
+    margin-top: 306px;
 
     @media (min-width: 280px) {
         align-items: center;
     }
 
+    @media (min-width: 380px) {
+        margin-top: 350px;
+    }
+
     @media (min-width: 688px) {
         align-items: flex-start;
+        margin-top: 0;
     }
 `;
 
@@ -205,6 +405,7 @@ export const ButtonHero = styled.button`
     border-radius: 12px;
     border: transparent;
     transition: background-image 0.3s ease-in-out;
+    margin-bottom: 20px;
   
     &:hover, &:focus {
         background-image: linear-gradient(to left, #DF5306, #FC9850);
@@ -226,6 +427,56 @@ export const ButtonHero = styled.button`
         border-radius: 3px;
         font-size: 18px;
         width: 224px;
+    }
+
+    @media (min-width: 1280px) {
+        border-radius: 3px;
+        font-size: 20px;
+        width: 240px;
+    }
+`;
+
+export const ButtonLinkHero = styled.button`
+    display: block;
+    padding: 15px 15px;
+    width: 235px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--text-white);
+    background-color: var(--brand-orange);
+    background-image: none;
+    border-radius: 12px;
+    border: transparent;
+    transition: background-image 0.3s ease-in-out;
+    text-align: center;
+
+    &:hover, &:focus {
+        background-image: linear-gradient(to left, #DF5306, #FC9850);
+    }
+
+    @media (min-width: 360px) {
+        width: 170px;
+    }
+
+    @media (min-width: 360px) {
+        padding: 18px 28px;
+        width: 330px;
+    }
+
+    @media (min-width: 414px) {
+        width: 379px;
+    }
+
+    @media (min-width: 640px) {
+        width: 445px;
+    }
+
+    @media (min-width: 688px) {
+        border-radius: 3px;
+        font-size: 18px;
+        width: 225px;
     }
 
     @media (min-width: 1280px) {
@@ -624,4 +875,3 @@ export const TextFeedback = styled.p`
         letter-spacing: -0.24px;
     }
 `;
-
