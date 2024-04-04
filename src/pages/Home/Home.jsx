@@ -9,7 +9,7 @@ import Portfolio from '../../Components/Portfolio/Portfolio';
 import Footer from '../../Components/Footer/Footer';
 import Miscount from '../../Components/Miscount/Miscount';
 import Discount from '../../Components/Discount/Discount';
-
+import CallMe from '../../Components/CallMe/CallMe';
 
 const Home = () => {
     return (
@@ -23,6 +23,7 @@ const Home = () => {
             <Discount />
             <Portfolio />
             <Footer />
+            <CallMe />
             
             <ToastContainer />
         </div>
