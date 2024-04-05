@@ -392,6 +392,16 @@ export const HeroText = styled.p`
     }
 `;
 
+export const BoxBtnHero = styled.div`
+    display: block;
+
+    @media (min-width: 980px) {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+`;
+
 export const ButtonHero = styled.button`
     padding: 16px 32px;
     width: 240px;
@@ -438,7 +448,7 @@ export const ButtonHero = styled.button`
 
 export const ButtonLinkHero = styled.button`
     display: block;
-    padding: 15px 15px;
+    padding: 16px 32px;
     width: 235px;
     font-family: Inter;
     font-size: 20px;
@@ -461,7 +471,6 @@ export const ButtonLinkHero = styled.button`
     }
 
     @media (min-width: 360px) {
-        padding: 18px 28px;
         width: 330px;
     }
 
@@ -479,10 +488,13 @@ export const ButtonLinkHero = styled.button`
         width: 225px;
     }
 
+
+    @media (min-width: 980px) {
+        width: 332px;
+    }
+
     @media (min-width: 1280px) {
-        border-radius: 3px;
         font-size: 20px;
-        width: 240px;
     }
 `;
 
