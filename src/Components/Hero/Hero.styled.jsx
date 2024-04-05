@@ -123,8 +123,8 @@ export const BoxMobil = styled.div`
     }
 
     @media (min-width: 410px) {
-        padding: 34px 46px;
-        top: 77px;
+        padding: 34px 45px;
+        top: 66px;
     }
 
     @media (min-width: 420px) {
@@ -189,7 +189,7 @@ export const BoxMobil = styled.div`
         padding: 37px 125px;
     }
 
-    @media (min-width: 570px) {
+    @media (min-width: 580px) {
         padding: 37px 130px;
     }
 
@@ -499,6 +499,7 @@ export const ButtonLinkHero = styled.button`
 
     @media (min-width: 1280px) {
         font-size: 20px;
+        width: 335px;
     }
 `;
 
