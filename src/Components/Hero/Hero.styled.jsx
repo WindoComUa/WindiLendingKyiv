@@ -75,17 +75,17 @@ export const BoxMobil = styled.div`
     }
 
     @media (min-width: 320px) {
-        padding: 15px 35px;
+        padding: 17px 35px;
         top: 72px;
     }
 
     @media (min-width: 330px) {
-        padding: 15px 40px;
+        padding: 17px 40px;
         top: 73px;
     }
 
     @media (min-width: 340px) {
-        padding: 15px 45px;
+        padding: 17px 45px;
     }
 
     @media (min-width: 350px) {
@@ -207,7 +207,6 @@ export const BoxMobil = styled.div`
 
     @media (min-width: 630px) {
         padding: 36px 155px;
-        top: 76px;
     }
 
     @media (min-width: 640px) {
