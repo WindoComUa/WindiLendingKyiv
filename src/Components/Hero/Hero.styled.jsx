@@ -45,7 +45,7 @@ export const ContainerHero = styled.div`
     }
 
     @media (min-width: 1800px) {
-        padding: 0 140px 100px;
+        padding: 0px 140px 110px;
     }
 
     @media (min-width: 1920px) {
