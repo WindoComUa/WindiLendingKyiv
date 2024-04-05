@@ -170,13 +170,13 @@ export const DesktopList = styled.ul`
     }
 
     @media (min-width: 1280px) {
-        gap: 8px;
-        margin-right: 20px;
+        gap: 4px;
+        margin-right: 4px;
     }
 
     @media (min-width: 1440px) {
         gap: 16px;
-        margin-right: 25px;
+        margin-right: 15px;
     }
 `;
 
