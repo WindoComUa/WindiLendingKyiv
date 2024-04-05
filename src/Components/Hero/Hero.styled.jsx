@@ -169,8 +169,16 @@ export const BoxMobil = styled.div`
         padding: 36px 95px;
     }
 
+    @media (min-width: 510px) {
+        padding: 36px 100px;
+    }
+
     @media (min-width: 530px) {
         padding: 36px 105px;
+    }
+
+    @media (min-width: 530px) {
+        padding: 36px 110px;
     }
 
     @media (min-width: 550px) {
