@@ -8,7 +8,7 @@ import { FaViber } from 'react-icons/fa';
 import { RiTelegramLine } from 'react-icons/ri';
 import { iconSize } from "../../constants";
 import {
-    BigFormBox, BoxContext, BoxHeroText, BoxSocialForm, ButtonHero, ButtonLinkHero,
+    BigFormBox, BoxContext, BoxHeroText, BoxSocialForm, BoxBtnHero, ButtonHero, ButtonLinkHero,
     ButtonSubmit, CloseButton, ContainerBtnText, ContainerForForm, BoxHeroTabletText,
     ContainerForm, ContainerHero, FeedbackBox, HeroBrandText, HeroText, BoxMobil,
     HeroTitle, ImageFeedback, ImgHeroDesktop, ImgHeroTablet, Input, LabelModal,
@@ -107,10 +107,10 @@ const Hero = () => {
 
     return (
         <>
-                    <BoxMobil>
-                        <HeroTitle>Енергоефективні вікна</HeroTitle>
-                        <HeroBrandText>Отримайте ексклюзивну знижку</HeroBrandText>
-                    </BoxMobil>
+            <BoxMobil>
+                <HeroTitle>Енергоефективні вікна</HeroTitle>
+                <HeroBrandText>Отримайте ексклюзивну знижку</HeroBrandText>
+            </BoxMobil>
             <ContainerHero>
                 <BoxContext>
 
@@ -122,23 +122,25 @@ const Hero = () => {
                         <BoxHeroText>
                             <HeroText>Компанія Windo надає знижку на профільні системи WDS, Rehau та Salamander. Заповніть коротку форму і ми  зателефонуємо в зручний для Вас час</HeroText>
                         </BoxHeroText>
-                        <ButtonHero onClick={toggleModal} type="button">
-                            Отримати знижку
-                        </ButtonHero>
-                        <Link
-                            activeClass="active"
-                            to="miscount"
-                            spy={true}
-                            smooth={true}
-                            offset={-80}
-                            duration={500}
-                            onClick={openSection}
-                        >
-                            <ButtonLinkHero>
-                                Розрахувати вартість вікон
+                        <BoxBtnHero>
+                            <ButtonHero onClick={toggleModal} type="button">
+                                Отримати знижку
+                            </ButtonHero>
+                            <Link
+                                activeClass="active"
+                                to="miscount"
+                                spy={true}
+                                smooth={true}
+                                offset={-80}
+                                duration={500}
+                                onClick={openSection}
+                            >
+                                <ButtonLinkHero>
+                                    Розрахувати вартість вікон
 
-                            </ButtonLinkHero>
-                        </Link>
+                                </ButtonLinkHero>
+                            </Link>
+                        </BoxBtnHero>
                     </ContainerBtnText>
                 </BoxContext>
                 <ImgHeroTablet>
