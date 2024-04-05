@@ -17,31 +17,35 @@ export const ContainerHero = styled.div`
     @media (min-width: 688px) {
         background-color: var(--text-white);
         background-image: none;
-        padding: 0 40px;
+        padding: 0 30px 11px;
     }
     
     @media (min-width: 1280px) {
-        padding: 0 80px 70px;
+        padding: 0 80px 38px;
     }
 
     @media (min-width: 1350px) {
-        padding: 0 80px 80px;
+        padding: 0 80px 68px;
     }
 
     @media (min-width: 1440px) {
-        padding: 0 100px 80px;
+        padding: 0 100px 60px;
     }
     
     @media (min-width: 1500px) {
-        padding: 0 110px 80px;
-    }
-    
-    @media (min-width: 1550px) {
-        padding: 0 120px 80px;
+        padding: 0 110px 50px;
     }
     
     @media (min-width: 1600px) {
-        padding: 0 140px 80px;
+        padding: 0 140px 53px;
+    }
+
+    @media (min-width: 1700px) {
+        padding: 0 140px 77px;
+    }
+
+    @media (min-width: 1800px) {
+        padding: 0 140px 100px;
     }
 
     @media (min-width: 1920px) {
@@ -502,7 +506,7 @@ export const BoxContext = styled.div`
 
     @media (min-width: 688px) {
         display: block;
-        padding-top: 32px;
+        padding-top: 15px;
         padding-bottom: 32px;
     }
 
