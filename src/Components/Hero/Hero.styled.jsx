@@ -70,17 +70,18 @@ export const BoxMobil = styled.div`
     }
 
     @media (min-width: 310px) {
-        padding: 15px 30px;
-        top: 71px;
+        padding: 17px 30px;
+        top: 70px;
     }
 
     @media (min-width: 320px) {
         padding: 15px 35px;
+        top: 72px;
     }
 
     @media (min-width: 330px) {
         padding: 15px 40px;
-        top: 71px;
+        top: 73px;
     }
 
     @media (min-width: 340px) {
@@ -92,11 +93,11 @@ export const BoxMobil = styled.div`
     }
 
     @media (min-width: 360px) {
-        padding: 7px 20px;
+        padding: 10px 20px;
     }
 
     @media (min-width: 372px) {
-        padding: 12px 27px;
+        padding: 10px 26px;
     }
 
     @media (min-width: 378px) {
@@ -119,12 +120,11 @@ export const BoxMobil = styled.div`
 
     @media (min-width: 410px) {
         padding: 26px 45px;
-        top: 72px;
+        top: 73px;
     }
 
     @media (min-width: 410px) {
         padding: 34px 45px;
-        top: 66px;
     }
 
     @media (min-width: 420px) {
