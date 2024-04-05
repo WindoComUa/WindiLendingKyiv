@@ -455,11 +455,11 @@ export const ButtonLinkHero = styled.button`
     padding: 16px 32px;
     width: 235px;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 1.5;
     color: var(--brand-orange);
-    background-color: var(--text-white);
+    background-color: transparent;
     border-radius: 12px;
     border: 1px solid var(--brand-orange);
     transition: color 0.3s ease-in-out;
