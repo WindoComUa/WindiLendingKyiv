@@ -458,16 +458,16 @@ export const ButtonLinkHero = styled.button`
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
-    color: var(--text-white);
-    background-color: var(--brand-orange);
-    background-image: none;
+    color: var(--brand-orange);
+    background-color: var(--text-white);
     border-radius: 12px;
-    border: transparent;
-    transition: background-image 0.3s ease-in-out;
+    border: 1px solid var(--brand-orange);
+    transition: color 0.3s ease-in-out;
     text-align: center;
-
+    
     &:hover, &:focus {
         background-image: linear-gradient(to left, #DF5306, #FC9850);
+        color: var(--text-white);
     }
 
     @media (min-width: 360px) {
@@ -494,7 +494,7 @@ export const ButtonLinkHero = styled.button`
 
 
     @media (min-width: 980px) {
-        width: 332px;
+        width: 328px;
     }
 
     @media (min-width: 1280px) {
