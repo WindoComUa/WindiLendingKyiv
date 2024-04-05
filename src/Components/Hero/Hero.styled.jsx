@@ -123,13 +123,9 @@ export const BoxMobil = styled.div`
         top: 73px;
     }
 
-    @media (min-width: 410px) {
-        padding: 34px 45px;
-    }
-
     @media (min-width: 420px) {
         padding: 26px 50px;
-        top: 78px;
+        top: 73px;
     }
 
     @media (min-width: 430px) {
